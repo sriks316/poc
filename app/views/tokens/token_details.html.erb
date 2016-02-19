@@ -3,22 +3,17 @@
 <div class="top-content">
   <div class="inner-bg">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 text">
-          <h1 class="success-sty"><strong>Detokenization Application</strong> </h1>
-        </div>
-      </div>
       <div class="alert alert-success" role="alert">
-        <strong>Token!</strong> has been successfully decrypted.
+        <strong><%=t('.token_message') %></strong><%=t('.decrypt_message') %>
     </div>
       <div class="table-responsive">
         <table class="table table-bordered table-hover mytable">
           <thead class="thead-inverse">
             <tr>
-              <th>Token</th>
-              <th>Card #</th>
-              <th>Expiry</th>
-              <th>CVV</th>
+              <th><%=t('.token') %></th>
+              <th><%=t('.card') %> #</th>
+              <th><%=t('.expiry') %></th>
+              <th><%=t('.cvv') %></th>
             </tr>
           </thead>
           <tbody>

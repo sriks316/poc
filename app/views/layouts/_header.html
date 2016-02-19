@@ -1,32 +1,54 @@
-      <div class="row">
-        <div class="col-lg-12">
-          <!--<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-2">-->
-            <div class="topmenu">
-              <nav class="navbar navbar-default">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <div class="brand" href="#">  MENU </div>
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  </button>
 
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right menu-sty">
-                    <li class="active"><a href="/logins">Home</a></li>
-                    <li><a href="/tokens">Token</a></li>
-                    <li><a href="/tokens/token_details">Token Details</a></li>
-                    <li><a href=<%=contact_us_path%>>Contact Us</a></li>
-                    <li><a href="/logins">Sign Out</a></li>
-                  </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-              </nav>
-            </div>
-          <!--</div>-->
+<div class="row">
+  <div class="col-lg-12">
+    <!--<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-2">-->
+    <div class="topmenu">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><strong><%=t('.ml_detokenization') %></strong><i class="fa fa-unlock-alt"></i></b></a>
+
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                    <li><a href="/logins"><%=t('.home') %></a></li>
+                    <li><a href="/tokens"><%=t('.token') %></a></li>
+                    <li><a href="/tokens/token_details"><%=t('.token_details') %></a></li>
+                    <li><a href=<%=contact_us_path%>><%=t('.contact_us') %></a></li>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%=t('.profile') %> <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/logins"><%=t('.sign_out') %></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
         </div>
-        <!--col-lg-12-->
-      </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  var url = window.location;
+  // Will only work if string in href matches with location
+  $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+  
+  // Will also work for relative and absolute hrefs
+  $('ul.nav a').filter(function() {
+      return this.href == url;
+  }).parent().addClass('active');
+</script>

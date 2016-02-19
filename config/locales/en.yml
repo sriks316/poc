@@ -21,3 +21,39 @@
 
 en:
   hello: "Hello world"
+  layouts:
+    application:
+      ml_detokenization: "De-Tokenization App"
+    header:
+      toggle_navigation: "Toggle navigation"
+      ml_detokenization: "ML De-Tokenization "
+      home: "Home"
+      token: "Token"
+      token_details: "Token Details"
+      contact_us: "Contact Us"
+      profile: "Profile"
+      sign_out: "Log Out"
+  logins:
+    contact_us:
+      contact_us: "Contact Us"
+      login: "Login"
+      error: "Error"
+      email: "Email"
+      first_name: "First Name"
+      last_name: "Last Name"
+      message: "Message"
+    index:
+      login_title: "Please sign in to access the application"
+      contact_us: "Contact Us"
+  tokens:
+    index: 
+      token_title: "Enter token(s) to retreive card information"
+    token_details:
+      token_message: "Token! "
+      decrypt_message: "has been successfully decrypted."
+      token: "Token"
+      card: "Card"
+      expiry: "Expiry"
+      cvv: "CVV"
+
+

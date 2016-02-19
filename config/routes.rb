@@ -55,6 +55,7 @@ Rails.application.routes.draw do
   #   end
   resources :logins, only: [:index]
   get 'logins/contact_us' => 'logins#contact_us', :as => :contact_us
+  get 'logins/sign_out' => 'logins#sign_out', :as => :sign_out
   resources :tokens, only: [:index]
   get 'tokens/token_details' => 'tokens#token_details', :as => :token_details
 end

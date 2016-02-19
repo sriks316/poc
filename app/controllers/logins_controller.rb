@@ -4,4 +4,7 @@ class LoginsController < ApplicationController
 
   def contact_us
   end
+
+  def sign_out
+  end
 end
