@@ -1,0 +1,506 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    /* color: #888; */
+    /*line-height: 30px;*/
+    text-align: center;
+    background: #29313E;
+}
+
+strong { font-weight: 500; }
+
+a, a:hover, a:focus {
+  color: #4aaf51;
+  text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+h1, h2 {
+  margin-top: 10px;
+  font-size: 38px;
+    font-weight: 100;
+    color: #555;
+    line-height: 50px;
+}
+
+h3 {
+  font-size: 22px;
+    font-weight: 300;
+    color: #555;
+    line-height: 30px;
+}
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #4aaf51; color: #fff; text-shadow: none; }
+::selection { background: #4aaf51; color: #fff; text-shadow: none; }
+
+
+.btn-link-1 {
+  display: inline-block;
+  height: 50px;
+  margin: 5px;
+  padding: 16px 20px 0 20px;
+  background: #4aaf51;
+  font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active { outline: 0; opacity: 0.6; color: #fff; }
+
+.btn-link-1.btn-link-1-facebook { background: #4862a3; }
+.btn-link-1.btn-link-1-twitter { background: #55acee; }
+.btn-link-1.btn-link-1-google-plus { background: #dd4b39; }
+
+.btn-link-1 i {
+  padding-right: 5px;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.btn-link-2 {
+  display: inline-block;
+  height: 50px;
+  margin: 5px;
+  padding: 15px 20px 0 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #fff;
+  font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.btn-link-2:hover, .btn-link-2:focus, 
+.btn-link-2:active, .btn-link-2:active:focus { outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; }
+
+
+/***** Top content *****/
+
+.inner-bg {
+    padding: 30px 0 170px 0;
+}
+
+.top-content .text {
+  color: #fff;
+}
+
+.top-content .text h1 { color: #fff; }
+
+.top-content .description {
+  margin: 20px 0 10px 0;
+}
+
+.top-content .description p { opacity: 0.8; }
+
+.top-content .description a {
+  color: #fff;
+}
+.top-content .description a:hover, 
+.top-content .description a:focus { border-bottom: 1px dotted #fff; }
+
+.form-box {
+  margin-top: 35px;
+}
+
+.form-top {
+  overflow: hidden;
+  padding: 0 25px 15px 25px;
+  background: #fff;
+  -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+  text-align: left;
+}
+
+.form-top-left {
+  float: left;
+  width: 75%;
+  padding-top: 25px;
+}
+
+.form-top-left h3 { margin-top: 0; }
+
+.form-top-right {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  font-size: 66px;
+  color: #ddd;
+  line-height: 100px;
+  text-align: right;
+}
+
+.form-bottom {
+  padding: 25px 25px 30px 25px;
+  background: #eee;
+  -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+  text-align: left;
+}
+
+.form-bottom form textarea {
+  height: 100px;
+}
+
+.form-bottom form button.btn {
+  width: 100%;
+}
+
+.form-bottom form .input-error {
+  border-color: #4aaf51;
+}
+
+.social-login {
+  margin-top: 35px;
+}
+
+.social-login h3 {
+  color: #fff;
+}
+
+.social-login-buttons {
+  margin-top: 25px;
+}
+
+/*************za************************/
+.topmenu {
+    margin-bottom: 175px;
+}
+.menu-sty {
+    width: 100%;
+}
+.menu-sty li a{
+    padding: 15px 20px;
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu-sty li a:hover{
+    background: #31708f !important;
+    color: #fff !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: #31708f !important;
+    color: #fff !important;
+}
+
+/***********gohar bhai********************/
+.top-content {
+background: #29313e;
+}
+.panel-info {
+   border-color: #fff;
+}
+.panel-info>.panel-heading {
+   color: #FFFFFF;
+   background-color: #31708f;
+   border-color: #29313E;
+   margin-bottom: 30px;
+}
+.panel-heading {
+   padding: 15px 15px;
+}
+.panel-title {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 18px;
+   color: inherit;
+}
+input[type="text"], input[type="password"], textarea, textarea.form-control{
+border: 1px solid #ddd;
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, textarea.form-control:focus{
+border: 1px solid #ddd;
+}
+.btn-success {
+   color: #fff;
+   background-color: #31708F;
+   border-color: #31708F;
+   width: 100%;
+   padding: 10px;
+   font-size: 18px;
+}
+.btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus, .btn-success:hover, .open>.dropdown-toggle.btn-success {
+   color: #fff;
+   background-color: #29313E;
+   border-color: #29313E;
+}
+button.btn.btn-success.btn-add{
+background:#31708F;
+}
+button.btn:hover {
+   opacity: inherit;
+}
+button.btn{
+background:#31708F;
+}
+.btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open>.dropdown-toggle.btn-danger{
+background:#29313E;
+}
+.alert-success {
+   color: #fff;
+   background-color: #31708f;
+   border:none;
+border-radius:0;
+}
+.inner-bg{
+color:#fff;
+}
+.table-hover>tbody>tr:hover {
+   background-color: #31708f;
+}
+.control-label{
+color:#333;
+}
+.error {
+    color: red;
+    padding-bottom: 10px;
+    font-weight: normal;
+    padding-top: 3px;
+}
+#loginform label{
+    display:table-caption;
+    text-align: left !important;
+}
+.myerror #tokenform label{
+  display:inherit;
+  float:left;
+  width:100%;
+}
+button.btn-add{
+  padding:0 25px !important;
+
+}
+#tokenform .glyphicon{
+  margin-left:-6px;
+}
+#tokenform label{
+    display:table-caption;
+    text-align: left !important;
+}
+#signupform label{
+    display:table-caption;
+    text-align: left !important;
+    padding-bottom: 5px;
+}
+#signupform .error {
+    display: block;
+}
+#signupform .form-group {
+    margin-bottom: 35px;
+}
+.contact-sty{
+    
+    font-size: 35px;
+}
+.go-to-contact-page {
+    text-align: right;
+    padding-top: 30px;
+}
+.go-to-contact-page a {
+    font-size: 18px;
+    color: #31708f;
+}
+thead.thead-inverse {
+    background: #31708f;
+}
+thead.thead-inverse tr th {
+    text-align: center !important;
+    font-size: 20px;
+}
+h1.success-sty {
+    padding-bottom: 55px;
+}
+tbody tr td {
+    background: #fff;
+    color: #000;
+}
+#email-sty{
+  
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #f8f8f8;
+    border: 3px solid #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #888;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+
+#text_ar{
+    height: 150px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #f8f8f8;
+    border: 3px solid #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #888;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    width:100%;
+    border:1px solid #ddd; 
+}
+
+/*
+  Max width before this PARTICULAR table gets nasty
+  This query will take effect for any screen smaller than 760px
+  and also iPads specifically.
+  */
+  @media
+  only screen and (max-width: 640px),
+  (min-device-width: 320px) and (max-device-width: 640px)  {
+
+    /* Force table to not be like tables anymore */
+    .mytable  table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    .table-responsive{
+      border:0 !important;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .mytable thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    .mytable tr {
+      margin-bottom:20px;
+    }
+
+    .mytable td {
+      /* Behave  like a "row" */
+      position: relative;
+      padding-left:25% !important;
+      border-bottom:1px solid #ddd !important;
+    }
+    .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{
+      border:0;
+    }
+    
+    .mytable td:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35%;
+      padding-right: 10px;
+      white-space: nowrap;
+      background: #31708f;
+      color: #fff;
+      height:100%;
+      padding:8px 0;
+      font-weight:bold;
+      text-shadow: none;
+    }
+
+    /*
+    Label the data
+    */
+    .mytable td:nth-of-type(1):before { content: "Token"; }
+    .mytable td:nth-of-type(2):before { content: "Card #"; }
+    .mytable td:nth-of-type(3):before { content: "Expiry"; }
+    .mytable td:nth-of-type(4):before { content: "CVV"; }
+  }
+
+  /* Smartphones (portrait and landscape) ----------- */
+  
+/***** Media queries *****/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+  
+  .inner-bg { padding: 60px 0 110px 0; }
+        .topmenu {
+    margin-bottom: 65px;
+}
+.menu-sty {
+    margin: 7.5px 0 !important;
+    width: 100%;
+}
+#signupform label {
+   width: 100% !important;
+}
+
+}
+
+
+@media (max-width: 640px) {
+  .navbar-default{
+    background:none;
+    border:0px;
+  }
+  .navbar-collapse, .navbar-default .navbar-form{
+    background:#fff;
+  }
+}
+
+@media (max-width: 415px) {
+  
+  h1, h2 { font-size: 32px; }
+
+}
+
+
+@media (max-width: 320px) {
+  .mytable td{
+    padding-left:34% !important;
+  }
+}
+
+#loginbox {
+  /* margin-top: 50px; */
+}
+
+#panel-area {
+  padding-top: 30px; 
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.sign-up {
+  border-top: 1px solid#888; 
+  padding-top:15px; 
+  font-size:85%;
+}
+.signupbox {
+   display:none; 
+   margin-top:50px;
+ }
+
+ 

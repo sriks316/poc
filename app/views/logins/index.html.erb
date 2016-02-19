@@ -1,0 +1,68 @@
+<!-- Top content -->
+<div class="top-content">
+  <div class="inner-bg home-bg-sty">
+    <div class="container">
+      <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <div class="panel panel-info" >
+          <div class="panel-heading">
+            <div class="panel-title">Please Sign In to access the application</div>
+          </div>
+          <div id="panel-area" class="panel-body" >
+            <form action="/tokens" name="loginform" id="loginform" class="form-horizontal" role="form">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="username" type="text" class="form-control" name="username" value="" placeholder="Username" >                                        
+              </div>
+              <div class="customerror"></div>
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input id="password" type="password" class="form-control" name="password" placeholder="Password" >
+              </div>
+              <div class="customerror"></div>
+              <div class="form-group">
+                <!-- Button -->
+                <div class="col-sm-12 controls">
+                  <input class="submit btn btn-success" id="btn-login" type="submit" value="Login">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12 control">
+                  <div class="sign-up go-to-contact-page">
+                    <a href="/logins/contact_us">Contact Us </a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+      // validate signup form on keyup and submit
+      $("#loginform").validate({
+          rules: {
+              username: {
+                  required: true,                            
+              },
+              password: {
+                  required: true,
+                  minlength: 5
+              }
+          },
+          messages: {
+              username: {
+                  required: "Please enter username",                            
+              },
+              password: {
+                  required: "Please enter password",
+                  minlength: "Your password must be at least 5 characters long"
+              }
+          }
+      });
+  
+  
+  });
+</script>
